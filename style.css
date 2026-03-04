@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.head{
+    padding: 20px 0;
+ display: flex;
+
+justify-content: space-between ;
+}
+.med{
+    justify-content: space-between;
+}
+.ul_head {
+    display: flex;
+gap: 150px;
+align-items: center;
+}
+.btn{
+    color: #DE2E54;
+    background-color: white;
+    border: #DE2E54 2px solid;
+    border-radius: 10px;
+}
+.ul_head a{
+    color: #DE2E54;
+}
+.back{
+background-image: url(image\ 4.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 533px;
+}
+.hero img{
+position: absolute;
+left: 1150px;
+}
+.back h2{
+color: aliceblue;
+font-size: 36px;
+width: 600px;
+position: absolute;
+top: 280px;
+left: 150px;
+}
+.back button {
+position: absolute;
+top: 400px;
+left: 150px;
+padding: 20px;
+color: white;
+background-color: #DE2E54;
+border: #DE2E54 2px solid;
+border-radius: 10px;
+}
+.f{
+    text-align: center;
+   bottom: 50px;
+   font-size: 36px;
+}
+.main1{
+    display: flex;
+    width: 864px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 64px;
+    margin-bottom: 50px;
+}
+.main .h2_text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.text{
+    width: 600px;
+}
+.text h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+
+}
+.text p{
+
+    font-size: 16px;
+}
+.main2{
+    margin-top: 100px;
+    display: flex;
+    width: 864px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 64px;
+}
+.call{
+height: 669px;
+background-color: #0EB4C1;
+}
+.call h1{
+   text-align: center;
+margin-top: 50px;
+}
+.box__1{
+    background-color: #f2f2f2;
+    width: 513px;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 850px;
+    margin-top: -330px;
+}
+
+.box__1 input{
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+.box__1 button{
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #39b27c;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.map{
+margin-left: 200px;
+margin-top: 150px;
+
+}
+.ul_headd {
+    display: flex;
+gap: 150px;
+align-items: center;
+}
+
